@@ -1,0 +1,100 @@
+.container {
+    position: absolute;
+    width: 715px;
+    height: 447px;
+    left: 283px;
+    top: 156px;
+    background: transparent;
+    border-radius: var(--border-radius-1);
+    border: black solid 1px;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: var(--border-radius-1);
+}
+
+.layout {
+
+    width: 50%;
+    height: 100%;
+    background-color: var(--color-green-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: var(--border-radius-1);
+
+}
+
+.layout h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: var(--color-brand);
+}
+
+.layout h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 30px;
+    color: var(--color-brand);
+    width: 279px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: var(--color-green-3);
+    text-align: center;
+    padding: 4px;
+}
+
+.img {
+
+    width: 274px;
+    height: 274px;
+}
+
+body {
+    background-color: var(--color-grey);
+}
+
+.login {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    border-radius: var(--border-radius-1);
+    background-color: var(--color-brand);
+}
+
+input {
+    border-radius: var(--border-radius-1);
+    background-color: var(--color-grey2);
+    height: 40px;
+    margin-top: 5px;
+}
+
+form {
+    align-self: center;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.forgot {
+    width: 119px;
+    height: 29px;
+    font-size: 10px;
+    color: black;
+    background: var(--color-grey-3);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
